@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="Creating Elements" Height="720" Width="1280" WindowStartupLocation="CenterScreen">
     <Grid>
+        <ScrollViewer>
+            <WrapPanel Orientation="Horizontal" Name="WindowGrid">
+            </WrapPanel>
+        </ScrollViewer>
         <Label Name="applicationVersion" Content="Version 0.0" VerticalAlignment="Bottom" HorizontalAlignment="Right" FontSize="24"></Label>
     </Grid>
 </Window>
